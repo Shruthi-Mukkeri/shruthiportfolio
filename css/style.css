@@ -26,7 +26,44 @@ html {
         font-size: 65%; 
     } 
 }
-  
+.heading-sec__mb-med {
+    margin-bottom: 9rem; 
+}
+@media only screen and (max-width: 56.25em) {
+    .heading-sec__mb-med {
+    margin-bottom: 8rem; 
+} 
+}
+.heading-sec__main {
+    display: block;
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 3.5rem;
+    position: relative; 
+}
+.heading-sec__sub {
+    display: block;
+    text-align: center;
+    color: #777;
+    font-size: 2rem;
+    font-weight: 500;
+    max-width: 80rem;
+    margin: auto;
+    line-height: 1.6; 
+}
+@media only screen and (max-width: 37.5em) {
+    .heading-sec__sub {
+    font-size: 1.8rem; 
+} 
+}
+
+.main-container {
+    max-width: 120rem;
+    margin: auto;
+    width: 92%; 
+} 
 
 body {
     box-sizing: border-box;
@@ -180,5 +217,73 @@ li {
 }
 .btn--bg {
     padding: 1.5rem 8rem;
-    font-size: 2rem; }
+    font-size: 2rem; 
+}
+.btn--med {
+    padding: 1.5rem 5rem;
+    font-size: 1.6rem; 
+}
+.btn--theme {
+    background: #0062b9;
+    color: #fff; 
+}
+
+.heading-sec__mb-med {
+    margin-bottom: 9rem; 
+}
+@media only screen and (max-width: 56.25em) {
+    .heading-sec__mb-med {
+    margin-bottom: 8rem; 
+} 
+}
+.about {
+    background: #fafafa; 
+}
+.about__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10rem; 
+}
+@media only screen and (max-width: 56.25em) {
+    .about__content {
+    grid-template-columns: 1fr;
+    grid-gap: 8rem; 
+} 
+}
+.about__content-title {
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-bottom: 3rem; }
+@media only screen and (max-width: 37.5em) {
+    .about__content-title {
+        font-size: 2.4rem; 
+    } 
+}
+.about__content-details-para {
+    font-size: 1.8rem;
+    color: grey;
+    max-width: 60rem;
+    line-height: 1.7;
+    margin-bottom: 1rem; 
+}
+.about__content-details-para:last-child {
+    margin-bottom: 4rem; 
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap; 
+}
+.skills__skill {
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.6rem;
+    background: rgba(153, 153, 153, 0.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #777;
+}
+
+
+
 
