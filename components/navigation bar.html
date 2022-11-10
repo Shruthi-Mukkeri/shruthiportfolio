@@ -1,23 +1,26 @@
-<header class="header">
-  <div class="header__content">
-    <div>
-      <span class="header__logo">Mukkeri Shruthi</span>
-    </div>
-    <div class="header__main">
-      <ul class="header__links">
-        <li class="header__link-wrapper">
-          <a href="./" class="header__link"> Home </a>
-        </li>
-        <li class="header__link-wrapper">
-          <a href="./#about" class="header__link">About </a>
-        </li>
-        <li class="header__link-wrapper">
-          <a href="./#projects" class="header__link"> Projects </a>
-        </li>
-        <li class="header__link-wrapper">
-          <a href="./#contact" class="header__link"> Contact </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</header>
+<nav class="nav collapsible collapsible--expanded">
+  <span class="logo">Mukkeri Shruthi</span>
+  <svg
+    class="icon"
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="#333"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    class="feather feather-menu"
+  >
+    <line x1="3" y1="12" x2="21" y2="12"></line>
+    <line x1="3" y1="6" x2="21" y2="6"></line>
+    <line x1="3" y1="18" x2="21" y2="18"></line>
+  </svg>
+  <ul class="list nav__list collapsible__content">
+    <li class="nav__item"><a href="./index.html">Home</a></li>
+    <li class="nav__item"><a href="./index.html#about">About</a></li>
+    <li class="nav__item"><a href="./index.html#projects">Projects</a></li>
+    <li class="nav__item"><a href="/">Contact</a></li>
+  </ul>
+</nav>
