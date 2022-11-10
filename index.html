@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="description" content="www.shruthi.com" />
+    <meta property="og:title" content="Portfolio...  " />
+    <meta property="og:description" content="Portfolio...  " />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://Shruthiportfolio.com" />
+
+    <title>Mukkeri Shruthi|Frontend Web Developer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,6 +21,224 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <nav class="nav collapsible collapsible--expanded">
+      <span class="logo">Mukkeri Shruthi</span>
+      <svg
+        class="icon"
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="#333"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="feather feather-menu"
+      >
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item"><a href="./index.html">Home</a></li>
+        <li class="nav__item"><a href="./index.html#about">About</a></li>
+        <li class="nav__item"><a href="./index.html#projects">Projects</a></li>
+        <li class="nav__item"><a href="/index.html#footer">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hey, I'm Mukkeri Shruthi</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            A Frontend focused Web Developer building the Frontend of Websites
+            and Web Applications that leads to the success of the overall
+            product.
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="./#projects" class="btn btn--bg">Projects</a>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            Here you will find more information about me, what I do, and my
+            current skills mostly in terms of programming and technology
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Hello!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                My name is <strong>Mukkeri Shruthi</strong> and I'm a passionate
+                <strong>Frontend Web Developer</strong> using web tecnologies to
+                build amazing products and focusing on solving problems for
+                different niches and different industries using the power of
+                technology.
+              </p>
+              <p class="about__content-details-para">
+                I'm open to <strong>Job</strong> opportunities where I can
+                contribute, learn and grow. If you have a good opportunity that
+                matches my skill.Feel free to <strong>contact</strong> me.
+              </p>
+            </div>
+            <a href="./#footer" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            >
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">GIT</div>
+              <div class="skills__skill">Github</div>
+              <div class="skills__skill">.Net</div>
+              <div class="skills__skill">SQL Basics</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+            tempora explicabo quae quod deserunt eius sapiente
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./images/jpeg/Screenshot (1085).png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Project 1</h3>
+              <p class="projects__row-content-desc">
+                I re-created the frontend of Mosify web page. It was a great
+                experience for me to build the entire frontend.
+              </p>
+              <a
+                href="https://shruthified.netlify.app/#"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./images/jpeg/project.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Project 2</h3>
+              <p class="projects__row-content-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                facilis tempora, explicabo quae quod deserunt eius sapiente
+                praesentium.
+              </p>
+              <a
+                href="./project-2.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./images/jpeg/project.jpeg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Project 3</h3>
+              <p class="projects__row-content-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                facilis tempora, explicabo quae quod deserunt eius sapiente
+                praesentium.
+              </p>
+              <a
+                href="./project-3.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer" class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a rel="noreferrer" href="./">
+                <img
+                  class="main-footer__icon"
+                  src="images/icons/linkedin-ico.png"
+                  alt="Linkedin"
+                />
+              </a>
+              <a rel="noreferrer" href="./">
+                <img
+                  class="main-footer__icon"
+                  src="images/icons/github-ico.png"
+                  alt="Github"
+                />
+              </a>
+              <a rel="noreferrer" href="./">
+                <img
+                  class="main-footer__icon"
+                  src="images/icons/twitter-ico.png"
+                  alt=" Twitter "
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h2 class="heading heading-sm text-lt">Mukkeri Shruthi</h2>
+            <p class="main-footer__short-desc">
+              A Frontend focused Web Developer building the Frontend of Websites
+              and Web Applications that leads to the success of the overall
+              product.
+            </p>
+          </div>
+        </div>
+        <div class="main-footer__lower">
+          © Copyright 2022. Made by
+          <a rel="noreferrer" target="_blank" href="./">Mukkeri Shruthi</a>
+        </div>
+      </div>
+    </footer>
+
     <script src="js/main.js"></script>
   </body>
 </html>

@@ -104,6 +104,7 @@ li {
 .nav__item > a {
     color: black;
     transition: color 0.3s;
+    
 }
 .nav__item > a:hover {
     color: rgb(71, 71, 192);
