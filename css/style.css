@@ -237,6 +237,7 @@ li {
 .btn--med {
     padding: 1.5rem 5rem;
     font-size: 1.6rem; 
+    margin-bottom: 2rem;
 }
 .btn--theme {
     background: #0062b9;
