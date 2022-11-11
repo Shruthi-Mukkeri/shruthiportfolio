@@ -407,12 +407,19 @@ li {
     overflow: hidden; 
 }
 .projects__row-img {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     display: block;
     object-fit: cover; 
-    padding-left: 15rem;
-    
+    padding-left: 1rem;
+}
+.pic {
+    margin: 5rem;
+}
+@media only screen and (max-width: 37.5em) {
+    .pic {
+        margin: 0;
+    }
 }
 
 .projects__row-content {
@@ -426,10 +433,7 @@ li {
     .projects__row-content {
         align-items: center; 
     } 
-    .projects__row-img {
-        margin-top: 2rem;
-        padding-left: 3rem;
-    }
+    
 }
 .projects__row-img:first-child {
     margin-top: 2rem;
@@ -456,10 +460,7 @@ li {
     .projects__row-content-desc {
         font-size: 1.7rem; 
     } 
-    .projects__row-img {
-        margin-top: 2rem;
-        padding-left: 3rem;
-    }
+    
 }
 
 
