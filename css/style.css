@@ -411,6 +411,7 @@ li {
     height: 90%;
     display: block;
     object-fit: cover; 
+    padding-left: 15rem;
     
 }
 
@@ -425,6 +426,10 @@ li {
     .projects__row-content {
         align-items: center; 
     } 
+    .projects__row-img {
+        margin-top: 2rem;
+        padding-left: 3rem;
+    }
 }
 .projects__row-img:first-child {
     margin-top: 2rem;
@@ -438,7 +443,7 @@ li {
 @media only screen and (max-width: 37.5em) {
     .projects__row-content-title {
     font-size: 2.4rem; 
-} 
+    } 
 }
 .projects__row-content-desc {
     font-size: 1.8rem;
@@ -449,8 +454,12 @@ li {
 }
 @media only screen and (max-width: 37.5em) {
     .projects__row-content-desc {
-    font-size: 1.7rem; 
-} 
+        font-size: 1.7rem; 
+    } 
+    .projects__row-img {
+        margin-top: 2rem;
+        padding-left: 3rem;
+    }
 }
 
 
